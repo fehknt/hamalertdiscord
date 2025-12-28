@@ -4,7 +4,7 @@ import json
 import logging
 import os
 import re
-import telnetlib
+import telnetlib3.telnetlib as telnetlib
 import time
 from typing import Dict, Optional, Tuple
 
